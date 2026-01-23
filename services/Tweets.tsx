@@ -50,7 +50,7 @@ const Tweets = [
         "https://pbs.twimg.com/profile_images/1653250498127089665/x5RJbLq5_400x400.jpg",
       name: "きょん/kyong",
       id: "kyongshiii06",
-      post: "https://x.com/kyongshiii06/status/1753030333128495470?s=20", //
+      post: "https://x.com/kyongshiii06/status/1753030333128495470?s=20", 
       content:
         "I tried keploy, it was amazing. Just wrap and start docker, and then just hit the API with curl or the client and you'll be able to test more and more. This is the golden test.",
     },
@@ -63,7 +63,7 @@ const Tweets = [
       content:
         "Why do I like keploy so much? Literally I see many tools and so hard to integrate. I mean update VScode , use the sdk , make this change make that change. With Keploy, don't worry buddy just run your application, we will literally do everything for you. You need to 0 efforts.",
     },
-  
+   
     {
       avatar:
         "https://pbs.twimg.com/profile_images/1712175220176355329/sLXbk_PZ_400x400.jpg",
@@ -73,8 +73,8 @@ const Tweets = [
       content:
         "Keploy is a tool which can automatically generate tests based on data from your running app. It simply attaches to your app, reads the data being passed through, and generates tests with real data. Pretty cool, huh?",
     },
-  
-  
+       
+   
     {
       avatar:
         "https://pbs.twimg.com/profile_images/1701251291861712897/PiTZ0UO7_400x400.jpg",
