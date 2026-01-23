@@ -76,7 +76,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-gray-500 transition-colors"
                
-                href="https://twiter.com/Keployio"
+                href="https://x.com/Keployio"
               >
                 <span className="sr-only">Twitter</span>
                 <svg
