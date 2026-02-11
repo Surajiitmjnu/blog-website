@@ -223,7 +223,14 @@ export default function FloatingNavbarClient({ techLatest = [], communityLatest 
           >
           <Link
               href="/technology"
-   
+   onClick={(e) => {
+  if (window.matchMedia("(hover: none)").matches) {
+    e.preventDefault();
+    setShowCommunityDropdown((v) => !v);
+    setShowTechDropdown(false);
+  }
+}}
+
 
               onMouseEnter={() => { setHoveredNav('tech'); setLinkHoverTech(true); }}
               onMouseLeave={() => { setLinkHoverTech(false); setHoveredNav(null); }}
@@ -296,6 +303,13 @@ export default function FloatingNavbarClient({ techLatest = [], communityLatest 
             <Link
               href="/community"
    
+          onClick={(e) => {
+  if (window.matchMedia("(hover: none)").matches) {
+    e.preventDefault();
+    setShowCommunityDropdown((v) => !v);
+    setShowTechDropdown(false);
+  }
+}}
 
 
               onMouseEnter={() => { setHoveredNav('community'); setLinkHoverCommunity(true); }}
